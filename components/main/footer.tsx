@@ -1,39 +1,92 @@
 import Link from "next/link";
-
+import Image from "next/image";
 import { FOOTER_DATA } from "@/constants";
 
 export const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]">
-      <div className="w-full flex flex-col items-center justify-center m-auto">
-        <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-          {FOOTER_DATA.map((column) => (
-            <div
-              key={column.title}
-              className="min-w-[200px] h-auto flex flex-col items-center justify-start"
-            >
-              <h3 className="font-bold text-[16px]">{column.title}</h3>
-              {column.data.map(({ icon: Icon, name, link }) => (
-                <Link
-                  key={`${column.title}-${name}`}
-                  href={link}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="flex flex-row items-center my-[15px]"
-                >
-                  {Icon && <Icon />}
-                  <span className="text-[15px] ml-[6px]">{name}</span>
-                </Link>
-              ))}
-            </div>
-          ))}
+    <footer className="w-full bg-transparent text-gray-200 p-6">
+      <div className="max-w-[1200px] mx-auto flex flex-col items-center">
+        {/* Top Section */}
+        <div className="w-full flex flex-col sm:flex-row justify-between px-4 sm:px-10">
+          {/* Left (Community) */}
+          <div className="flex flex-col items-start min-w-[180px] space-y-3 mb-10">
+            <h3 className="font-bold text-lg mb-1">{FOOTER_DATA[0].title}</h3>
+            {FOOTER_DATA[0].data.map((item) => (
+              <Link
+                key={`${FOOTER_DATA[0].title}-${item.name}`}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition"
+              >
+                {"icon" in item && item.icon ? (
+                  typeof item.icon === "function" ? (
+                    <item.icon className="w-5 h-5" />
+                  ) : typeof item.icon === "string" ? (
+                    <Image
+                      src={`/skills/${item.icon}`}
+                      alt={item.name}
+                      width={20}
+                      height={20}
+                    />
+                  ) : null
+                ) : null}
+                {item.name}
+              </Link>
+            ))}
+          </div>
+
+          {/* Center (Social Media) */}
+          <div className="flex flex-col items-center min-w-[180px] space-y-3 mb-10">
+            <h3 className="font-bold text-lg mb-1">{FOOTER_DATA[1].title}</h3>
+            {FOOTER_DATA[1].data.map((item) => (
+              <Link
+                key={`${FOOTER_DATA[1].title}-${item.name}`}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-sm text-gray-200 hover:text-white transition"
+              >
+                <item.icon className="w-5 h-5" />
+                {item.name}
+              </Link>
+            ))}
+          </div>
+
+          {/* Right (About) */}
+          <div className="flex flex-col items-end min-w-[180px] space-y-3 mb-10">
+            <h3 className="font-bold text-lg mb-1">{FOOTER_DATA[2].title}</h3>
+            {FOOTER_DATA[2].data.map((item) => (
+              <Link
+                key={`${FOOTER_DATA[2].title}-${item.name}`}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-sm text-gray-200 hover:text-white transition"
+              >
+                {item.icon ? (
+                  typeof item.icon === "function" ? (
+                    <item.icon className="w-5 h-5" />
+                  ) : typeof item.icon === "string" ? (
+                    <Image
+                      src={`/skills/${item.icon}`}
+                      alt={item.name}
+                      width={20}
+                      height={20}
+                    />
+                  ) : null
+                ) : null}
+                {item.name}
+              </Link>
+            ))}
+          </div>
         </div>
 
-        <div className="mb-[20px] text-[15px] text-center">
+        {/* Bottom Section */}
+        <div className="mt-12 text-center text-sm text-gray-200">
           &copy; Tanmay {new Date().getFullYear()} Inc. All rights reserved.
-
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
