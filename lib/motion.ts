@@ -26,7 +26,7 @@ export function slideInFromRight(delay: number) {
   };
 }
 
-// Replace current slideInFromTop (Line 21) with this
+
 export function slideInFromTop(delay: number) {
   return {
     hidden: { y: -100, opacity: 0 },

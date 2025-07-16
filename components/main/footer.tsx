@@ -64,19 +64,24 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-sm text-gray-200 hover:text-white transition"
               >
-                {item.icon ? (
-                  typeof item.icon === "function" ? (
-                    <item.icon className="w-5 h-5" />
-                  ) : typeof item.icon === "string" ? (
-                    <Image
-                      src={`/skills/${item.icon}`}
-                      alt={item.name}
-                      width={20}
-                      height={20}
-                    />
-                  ) : null
-                ) : null}
-                {item.name}
+                {"icon" in item && item.icon ? (
+                    typeof item.icon === "string" ? (
+                      <Image
+                        src={`/skills/${item.icon}`}
+                        alt={item.name}
+                        width={20}
+                        height={20}
+                      />
+                    ) : (
+                      (() => {
+                        const Icon = item.icon as React.ElementType;
+                        return <Icon className="w-5 h-5" />;
+                      })()
+                    )
+                  ) : null}
+                  
+
+                {item.name} 
               </Link>
             ))}
           </div>

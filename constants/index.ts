@@ -242,7 +242,7 @@ export const FOOTER_DATA = [
             {
       name: "LeetCode",
       icon: "leet.png", 
-      link: "https://leetcode.com/YourLeetCodeUsername", 
+      link: "https://leetcode.com/tanmayawasthi", 
     },
     ],
   },
@@ -261,6 +261,7 @@ export const FOOTER_DATA = [
     data: [
       {
         name: "View Resume",
+        icon: null,
         link: "/Resume.pdf", 
       },    
       {
