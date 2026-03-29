@@ -4,8 +4,6 @@ import { SkillText } from "@/components/sub/skill-text";
 import {
   BACKEND_SKILL,
   FRONTEND_SKILL,
-  FULLSTACK_SKILL,
-  OTHER_SKILL,
   SKILL_DATA,
 } from "@/constants";
 
@@ -58,40 +56,6 @@ export const Skills = () => {
       </h2>
       <div className="flex flex-row justify-center flex-wrap gap-5 items-center">
         {BACKEND_SKILL.map((skill, i) => (
-          <SkillDataProvider
-            key={skill.skill_name}
-            src={skill.image}
-            name={skill.skill_name}
-            width={skill.width}
-            height={skill.height}
-            index={i}
-          />
-        ))}
-      </div>
-
-      {/* Fullstack / Tools */}
-      <h2 className="text-2xl md:text-3xl font-bold text-white mt-10 mb-4 underline underline-offset-4">
-        🌐 Fullstack & Tools
-      </h2>
-      <div className="flex flex-row justify-center flex-wrap gap-5 items-center">
-        {FULLSTACK_SKILL.map((skill, i) => (
-          <SkillDataProvider
-            key={skill.skill_name}
-            src={skill.image}
-            name={skill.skill_name}
-            width={skill.width}
-            height={skill.height}
-            index={i}
-          />
-        ))}
-      </div>
-
-      {/* Other */}
-      <h2 className="text-2xl md:text-3xl font-bold text-white mt-10 mb-4 underline underline-offset-4">
-        🧰 Others
-      </h2>
-      <div className="flex flex-row justify-center flex-wrap gap-5 items-center">
-        {OTHER_SKILL.map((skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
             src={skill.image}

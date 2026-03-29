@@ -79,26 +79,8 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React",
     image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
     width: 80,
     height: 80,
   },
@@ -136,86 +118,26 @@ export const BACKEND_SKILL = [
     height: 40,
   },
   {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
-  },
-  {
     skill_name: "MySQL",
     image: "mysql.png",
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
-  },
 ] as const;
 
-export const FULLSTACK_SKILL = [
-  {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
-
-  {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
-  },
-] as const;
-
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-] as const;
 
 export const PROJECTS = [
 {
-  title: "AI-Powered Resume Analyzer",
+  title: "Smart Surveillance AI: Mask & Emotion Detection System",
   description:
-    "An ML-based web app that evaluates resumes against job descriptions using NLP and OpenAI APIs. Built with Python, React, and FastAPI.",
+    "An AI-powered real-time surveillance system that detects face mask compliance and human emotions simultaneously using computer vision. Built with MobileNetV2 and a custom CNN trained on FER-2013, the system processes live video streams to identify mask usage and classify emotions like Happy, Angry, Sad, and Neutral.",
   image: "/projects/project-1.png",
   link: "https://github.com/Tanmay0405",
 },
 {
-  title: "Student Result Dashboard",
+  title: "BookIt Lite: Property Booking & Management System",
   description:
-    "Full stack dashboard using React, Node.js, and MongoDB to manage student performance, export reports, and analyze trends with charts.",
+    "Developed a scalable booking system that allows users to browse, create, and manage property listings and reservations in real time. Built with the MERN stack, the platform handles large-scale data operations efficiently while maintaining a clean and intuitive UI.",
   image: "/projects/project-2.png",
   link: "https://github.com/Tanmay0405",
 },
@@ -295,5 +217,4 @@ export const NAV_LINKS = [
 
 export const LINKS = {
   sourceCode: "https://github.com/Tanmay0405",
-  //liveSite: "https://tanmay-portfolio.vercel.app",
 };
