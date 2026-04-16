@@ -54,14 +54,14 @@ export const HeroContent = () => {
         </motion.p>
 
         <motion.a
-        href="/resume.pdf"
+        href="https://drive.google.com/file/d/1BdmmaDxyMnAT4ztqMsUG3hunKEGxjplU/view?usp=drive_link"
         target="_blank"
         rel="noopener noreferrer"
         variants={slideInFromLeft(1)}
         className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
         View Resume
-        </motion.a>
+      </motion.a>
 
       </div>
 
