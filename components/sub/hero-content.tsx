@@ -54,12 +54,13 @@ export const HeroContent = () => {
         </motion.p>
 
         <motion.a
-          href="/resume.pdf"
-          download
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          >
-          Download Resume
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        variants={slideInFromLeft(1)}
+        className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        >
+        View Resume
         </motion.a>
 
       </div>
