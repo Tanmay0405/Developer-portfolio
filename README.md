@@ -148,4 +148,6 @@ https://github.com/Tanmay0405
 
 If you like this portfolio, consider giving this repository a star ⭐
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> ```
+ ```
+
+
