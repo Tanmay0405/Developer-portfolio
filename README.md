@@ -5,7 +5,7 @@
 ![Portfolio Preview](./public/projects/project-3.png)
 
 ##  Live Website
-🔗 https://tanmay-portfolio-bld0.onrender.com
+🔗 (https://developer-portfolio-blue-chi.vercel.app/)
 
 ---
 
