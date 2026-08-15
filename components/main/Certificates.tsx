@@ -7,160 +7,128 @@ const certificates = [
     title: "Object Oriented Programming in Java",
     organization: "UC San Diego",
     date: "Dec 10, 2022",
+    category: "Java & Programming",
     link: "https://coursera.org/verify/KQUZBDU64K6P",
   },
   {
     title: "Java Programming: Arrays, Lists, and Structured Data",
     organization: "Duke University",
     date: "Dec 14, 2022",
+    category: "Java & Programming",
     link: "https://coursera.org/verify/Q8F9YJYNJ7YJ",
-  },
-  {
-    title: "Python for Data Science, AI & Development",
-    organization: "IBM",
-    date: "May 05, 2023",
-    link: "https://coursera.org/verify/7VU3LD727Y93",
-  },
-  {
-    title: "Introduction to Artificial Intelligence (AI)",
-    organization: "IBM",
-    date: "Apr 17, 2023",
-    link: "https://coursera.org/verify/KNCAJWP9CTPS",
   },
   {
     title: "Algorithmic Toolbox",
     organization: "UC San Diego",
     date: "Mar 13, 2023",
+    category: "DSA & Algorithms",
     link: "https://coursera.org/verify/G2DE34BDRZ9Q",
-  },
-  {
-    title: "Python Basics",
-    organization: "University of Michigan",
-    date: "Jan 22, 2023",
-    link: "https://coursera.org/verify/DMREWSGQEGBG",
-  },
-  {
-    title: "Human-Centered Design for Inclusive Innovation",
-    organization: "University of Toronto",
-    date: "May 21, 2023",
-    link: "https://coursera.org/verify/H53J8A4QA5GC",
-  },
-
-  {
-    title: "Explore Machine Learning using R",
-    organization: "Infosys Springboard",
-    date: "Mar 25, 2025",
-    link: "https://www.linkedin.com/posts/tanmay-awasthi-programmer4_machine-learning-using-r-activity-7313252460461006848-1rTn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQkaXkBVXVYK4WOj21U10rv1lyZuDvpTEU",
-  },
-  {
-    title: "Natural Language Processing using Python",
-    organization: "Infosys Springboard",
-    date: "Sep 10, 2024",
-    link: "https://www.linkedin.com/posts/tanmay-awasthi-programmer4_network-fundamentals-activity-7313252710798041088-ZMiN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADQkaXkBVXVYK4WOj21U10rv1lyZuDvpTEU",
   },
   {
     title: "Java Programming Fundamentals",
     organization: "Infosys Springboard",
     date: "May 9, 2024",
+    category: "Java & Programming",
     link: "https://drive.google.com/file/d/1MqpILYj8_59gpyWzs3Hq5j7tx-p91BMC/view?usp=sharing",
-  },
-  {
-    title: "Kotlin Programming",
-    organization: "Infosys Springboard",
-    date: "Mar 25, 2025",
-    link: "https://www.linkedin.com/posts/tanmay-awasthi-programmer4_kotlin-programming-activity-7313252152192167937-QEsl?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADQkaXkBVXVYK4WOj21U10rv1lyZuDvpTEU",
   },
   {
     title: "Database Management System – Science Graduates",
     organization: "Infosys Springboard",
     date: "Sep 10, 2024",
+    category: "Databases",
     link: "https://drive.google.com/file/d/1PiNJNAzPs554h40l7DrEWc2VDu8zP5FJ/view?usp=drive_link",
   },
   {
     title: "Network Fundamentals",
     organization: "Infosys Springboard",
     date: "Mar 26, 2025",
+    category: "Computer Science",
     link: "https://drive.google.com/file/d/11qujLeoLrGRsQI8nT8QCi9YBliT_b0qX/view?usp=drive_link",
   },
   {
-    title: "C Programming",
-    organization: "Infosys Springboard",
-    date: "Jan 2, 2024",
-    link: "https://drive.google.com/file/d/1vw-0ww5XBRmQIkbj288GWqvBgRP1Fbyd/view?usp=drive_link",
-  },
-  {
-    title: "Introduction to Python",
-    organization: "Infosys Springboard",
-    date: "May 9, 2024",
-    link: "https://drive.google.com/file/d/1AYNt6ed3Z7w4YAmOK5crx5LU1PgYp3QD/view?usp=drive_link",
-  },
-  {
-    title: "Programming Fundamentals using Python - Part 2",
-    organization: "Infosys Springboard",
-    date: "Jan 2, 2024",
-    link: "https://drive.google.com/file/d/1eZn7uZ9jnlCeeRKLPv0MpIsoYMVMcO4y/view?usp=sharing",
-  },
-  {
-    title: "Programming Fundamentals using Python - Part 1",
-    organization: "Infosys Springboard",
-    date: "Jan 2, 2024",
-    link: "https://drive.google.com/file/d/1Ig4-p3rF2k7dRoIqG8PWzdv-BFUUErmz/view?usp=sharing",
-  },
-  {
-    title: "Twitter Bootstrap",
+    title: "Natural Language Processing using Python",
     organization: "Infosys Springboard",
     date: "Sep 10, 2024",
-    link: "https://drive.google.com/file/d/1Tl9p1V7lDdkQaXoYd0j8_w_hMqeOjHCQ/view?usp=drive_link",
+    category: "AI & Machine Learning",
+    link: "https://www.linkedin.com/posts/tanmay-awasthi-programmer4_network-fundamentals-activity-7313252710798041088-ZMiN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADQkaXkBVXVYK4WOj21U10rv1lyZuDvpTEU",
+  },
+  {
+    title: "Introduction to Artificial Intelligence (AI)",
+    organization: "IBM",
+    date: "Apr 17, 2023",
+    category: "AI & Machine Learning",
+    link: "https://coursera.org/verify/KNCAJWP9CTPS",
   },
 ];
 
-
 export const Certificates = () => {
   return (
-<section id="certificates" className="px-6 md:px-20 pt-16 text-white">
-  <motion.h2
-  initial={{ opacity: 0, y: -40 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6 }}
-  className="text-4xl md:text-5xl font-bold text-center text-white mb-10 tracking-wide drop-shadow-md"
+    <section
+      id="certificates"
+      className="relative flex flex-col items-center px-6 py-24 md:px-20"
+    >
+      <motion.p
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true }}
+        className="relative z-10 mx-auto mb-10 max-w-2xl text-center text-sm leading-6 text-gray-400 md:text-base"
+      >
+        Selected certifications demonstrating my foundation in Java, computer
+        science, databases, algorithms, and emerging technologies.
+      </motion.p>
 
->
-  <span className="mr-2">📄</span> Certificates
-</motion.h2>
-
-  <motion.p
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ delay: 0.4, duration: 0.6 }}
-    className="text-center text-sm md:text-base text-gray-400 max-w-2xl mx-auto mb-10"
-  >
-    A showcase of certifications I’ve earned through hands-on learning in development, AI, and software fundamentals.
-  </motion.p>
-
-
-      <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      {/* Certificate Grid */}
+      <div className="relative z-10 grid w-full max-w-[1100px] grid-cols-1 gap-6 md:grid-cols-2">
         {certificates.map((cert, index) => (
           <motion.div
-            key={index}
+            key={cert.title}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.05 }}
+            transition={{
+              duration: 0.5,
+              delay: index * 0.06,
+            }}
             viewport={{ once: true }}
-            className="border border-[#2A0E61] rounded-lg p-4 hover:shadow-md hover:border-purple-500 transition hover:bg-white/5"
-
+            className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-white/10 bg-white/[0.025] p-6 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-purple-400/50 hover:bg-white/[0.045] hover:shadow-[0_0_30px_rgba(139,92,246,0.12)]"
           >
-            <h3 className="text-lg font-semibold bg-gradient-to-r from-purple-300 to-cyan-300 text-transparent bg-clip-text">{cert.title}</h3>
-            <p className="text-sm text-gray-300">
-              {cert.organization} — {cert.date}
-            </p>
-            <a
-              href={cert.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-purple-400 hover:underline hover:text-purple-300 transition"
-            >
-              View Certificate
-            </a>
+            {/* Top accent */}
+            <div className="absolute left-0 top-0 h-[2px] w-full bg-gradient-to-r from-purple-500 via-indigo-500 to-cyan-400 opacity-60 transition-opacity duration-300 group-hover:opacity-100" />
+
+            <div>
+              {/* Category */}
+              <span className="inline-flex rounded-full border border-purple-500/25 bg-purple-500/[0.08] px-3 py-1 text-xs font-medium text-purple-200">
+                {cert.category}
+              </span>
+
+              {/* Certificate title */}
+              <h3 className="mt-4 text-xl font-semibold leading-7 text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-cyan-300">
+                {cert.title}
+              </h3>
+
+              {/* Organization */}
+              <p className="mt-3 text-sm font-medium text-gray-200">
+                {cert.organization}
+              </p>
+
+              {/* Date */}
+              <p className="mt-1 text-sm text-gray-500">{cert.date}</p>
+            </div>
+
+            {/* Certificate Link */}
+            <div className="mt-6">
+              <a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-purple-300 transition-colors duration-300 hover:text-cyan-300"
+              >
+                View Certificate
+                <span className="transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
+              </a>
+            </div>
           </motion.div>
         ))}
       </div>
