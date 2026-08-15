@@ -127,7 +127,7 @@ export const PROJECTS = [
     title: "TaskFlow",
     description:
       "A full-stack task management application for creating, organizing, and managing tasks with protected routes and user authentication.",
-    image: "/projects/project-2.png",
+    image: "",
     tech: ["React", "Node.js", "Express.js", "MongoDB", "JWT"],
     github: "https://github.com/Tanmay0405/task-manager",
     live: "",
@@ -163,14 +163,13 @@ export const PROJECTS = [
   {
     title: "ParseTruth",
     description:
-      "A collaborative machine-learning project developed with a teammate to detect and classify potentially misleading or fake news content.",
-    image: "/projects/project-1.png",
+      "A collaborative project developed with a teammate to detect and classify potentially misleading or fake news content.",
+    image: "",
     tech: ["Python", "Machine Learning", "NLP"],
     github: "https://github.com/blazePrakhar/ParseTruth",
     live: "https://parsetruth.streamlit.app/",
   },
 ] as const;
-
 export const FOOTER_DATA = [
   {
     title: "Community",

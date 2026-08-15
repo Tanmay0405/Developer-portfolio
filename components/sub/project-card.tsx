@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 type ProjectCardProps = {
-  src: string;
+  src?: string;
   title: string;
   description: string;
   tech: readonly string[];
@@ -28,16 +28,29 @@ export const ProjectCard = ({
       }`}
     >
       {/* Project Image */}
-      <div className="relative overflow-hidden">
-        <Image
-          src={src}
-          alt={title}
-          width={1000}
-          height={650}
-          className="h-[220px] w-full object-cover transition-transform duration-500 group-hover:scale-105"
-        />
+      <div className="relative h-[220px] overflow-hidden">
+        {src ? (
+          <Image
+            src={src}
+            alt={title}
+            width={1000}
+            height={650}
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-[#12072b] via-[#24104f] to-[#061b35]">
+            <div className="text-center">
+              <div className="mb-3 text-5xl opacity-80">
+                {title === "TaskFlow" ? "✓" : "📰"}
+              </div>
 
-        {/* Image overlay */}
+              <p className="text-lg font-semibold text-white/80">
+                {title}
+              </p>
+            </div>
+          </div>
+        )}
+
         <div className="absolute inset-0 bg-gradient-to-t from-[#030014] via-transparent to-transparent opacity-70" />
 
         {featured && (
