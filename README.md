@@ -1,77 +1,86 @@
 <a name="readme-top"></a>
 
-#  Tanmay Awasthi | Developer Portfolio
+# Tanmay Awasthi | Developer Portfolio
 
 ![Portfolio Preview](./public/projects/project-3.png)
 
-##  Live Website
+## Live Website
+
 🔗 (https://developer-portfolio-blue-chi.vercel.app/)
 
 ---
 
-#  About The Project
+# About The Project
 
 Welcome to my personal developer portfolio — a modern, space-inspired portfolio built to showcase my:
 
--  Full Stack Development Skills  
--  DSA & Problem-Solving Journey  
--  AI / ML Projects  
--  Certifications & Achievements  
--  Resume & Professional Links  
+- Full Stack Development Skills
+- DSA & Problem-Solving Journey
+- AI / ML Projects
+- Certifications & Achievements
+- Resume & Professional Links
 
 This portfolio reflects my passion for building impactful digital experiences through clean UI, scalable development, and modern web technologies.
 
 ---
 
-#  Tech Stack
+# Tech Stack
 
 ### Frontend
-- Next.js 14  
-- React.js  
-- TypeScript  
-- Tailwind CSS  
-- Framer Motion  
+
+- Next.js 14
+- React.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
 ### Backend / Core
-- Node.js  
-- Express.js  
-- MongoDB  
-- Java  
-- Python  
+
+- Node.js
+- Express.js
+- MongoDB
+- Java
+- Python
 
 ### Deployment
-- Render  
+
+- versel
 
 ---
 
-#  Features
+# Features
 
-##  Hero Section
-- Animated introduction  
-- Resume access  
-- Personal branding  
+## Hero Section
 
-##  Skills Section
-- Frontend, Backend, Core Technologies  
-- Clean categorized UI  
+- Animated introduction
+- Resume access
+- Personal branding
 
-##  Projects Section
-- Featured projects  
-- GitHub links  
-- Real-world development showcase  
+## Skills Section
 
-##  Certificates Section
-- Interactive certificate unlock section  
-- Verified certifications  
+- Frontend, Backend, Core Technologies
+- Clean categorized UI
 
-##  Social & Contact
-- LinkedIn  
-- GitHub  
-- Resume  
+## Projects Section
+
+- Featured projects
+- GitHub links
+- Real-world development showcase
+
+## Certificates Section
+
+- Interactive certificate unlock section
+- Verified certifications
+
+## Social & Contact
+
+- LinkedIn
+- GitHub
+- Resume
 
 ---
 
-#  Folder Structure
+# Folder Structure
 
 ```bash
 tanmay-portfolio/
@@ -148,6 +157,4 @@ https://github.com/Tanmay0405
 
 If you like this portfolio, consider giving this repository a star ⭐
 
- ```
-
-
+```
