@@ -15,63 +15,80 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-col lg:flex-row items-center justify-center px-6 md:px-12 lg:px-20 mt-32 lg:mt-40 w-full z-[20] gap-12 lg:gap-4"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      {/* Left Content */}
+      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center lg:text-start">
+        {/* Badge */}
         <motion.div
           variants={slideInFromTop(0.3)}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9] flex items-center justify-center lg:justify-start w-fit mx-auto lg:mx-0"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+
           <h1 className="Welcome-text text-[13px]">
-            Full Stack Developer | Creating Impactful Experiences
+            Java & Full Stack Developer
           </h1>
         </motion.div>
 
+        {/* Main Heading */}
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-4 mt-5 text-4xl sm:text-5xl md:text-6xl font-bold text-white max-w-[700px] w-full h-auto"
         >
           <span>
-          Blending{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-          code
-          </span>{" "}
-          and{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500">
-            creativity
-          </span>{" "}
-          together.
+            Building{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              scalable web
+            </span>{" "}
+            experiences with code & creativity.
           </span>
-
         </motion.div>
 
+        {/* Description */}
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-base md:text-lg text-gray-400 my-4 max-w-[650px] leading-relaxed mx-auto lg:mx-0"
         >
-          I&apos;m Tanmay, a passionate Full Stack Developer with a knack for problem-solving, UI/UX, and scalable tech solutions. Dive into my work and let’s build the future.
+          I&apos;m Tanmay, a Full Stack Developer focused on Java,
+          JavaScript, React, Node.js, and SQL. I enjoy solving problems,
+          building practical applications, and turning ideas into reliable
+          software.
         </motion.p>
 
-        <motion.a
-        href="https://drive.google.com/file/d/1BdmmaDxyMnAT4ztqMsUG3hunKEGxjplU/view?usp=drive_link"
-        target="_blank"
-        rel="noopener noreferrer"
-        variants={slideInFromLeft(1)}
-        className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        {/* CTA Buttons */}
+        <motion.div
+          variants={slideInFromLeft(1)}
+          className="flex flex-col sm:flex-row items-center lg:items-start gap-4 mt-2"
         >
-        View Resume
-      </motion.a>
+          {/* View Projects */}
+          <a
+            href="#projects"
+            className="py-3 px-7 button-primary text-center text-white cursor-pointer rounded-lg min-w-[160px] transition-transform duration-300 hover:scale-105"
+          >
+            View Projects
+          </a>
 
+          {/* View Resume */}
+          <a
+            href="https://drive.google.com/file/d/1BdmmaDxyMnAT4ztqMsUG3hunKEGxjplU/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="py-3 px-7 border border-[#7042f88b] bg-[#0f0a1f]/60 text-white text-center cursor-pointer rounded-lg min-w-[160px] transition-all duration-300 hover:border-[#b49bff] hover:bg-[#7042f81a] hover:scale-105"
+          >
+            View Resume
+          </a>
+        </motion.div>
       </div>
 
+      {/* Right Illustration */}
       <motion.div
         variants={slideInFromRight(0.8)}
         className="w-full h-full flex justify-center items-center"
       >
         <Image
           src="/hero-bg.svg"
-          alt="work icons"
+          alt="Developer illustration"
           height={650}
           width={650}
           draggable={false}

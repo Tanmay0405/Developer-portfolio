@@ -40,13 +40,15 @@ export const SkillDataProvider = ({
       transition={{ delay: index * animationDelay, duration: 0.5 }}
       className="flex flex-col items-center gap-2 hover:scale-110 transition-transform duration-300 ease-in-out"
     >
-      <Image
-        src={`/skills/${src}`}
-        width={width}
-        height={height}
-        alt={name}
-        className="drop-shadow-md hover:drop-shadow-xl"
-      />
+      <div className="flex h-24 w-24 items-center justify-center">
+        <Image
+          src={`/skills/${src}`}
+          width={width}
+          height={height}
+          alt={name}
+          className="h-20 w-20 object-contain drop-shadow-md hover:drop-shadow-xl"
+        />
+      </div>
       <p className="text-sm text-gray-200 font-medium text-center">{name}</p>
     </motion.div>
   );
