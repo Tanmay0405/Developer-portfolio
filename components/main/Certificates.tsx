@@ -45,20 +45,6 @@ const certificates = [
     category: "Computer Science",
     link: "https://drive.google.com/file/d/11qujLeoLrGRsQI8nT8QCi9YBliT_b0qX/view?usp=drive_link",
   },
-  {
-    title: "Natural Language Processing using Python",
-    organization: "Infosys Springboard",
-    date: "Sep 10, 2024",
-    category: "AI & Machine Learning",
-    link: "https://www.linkedin.com/posts/tanmay-awasthi-programmer4_network-fundamentals-activity-7313252710798041088-ZMiN?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADQkaXkBVXVYK4WOj21U10rv1lyZuDvpTEU",
-  },
-  {
-    title: "Introduction to Artificial Intelligence (AI)",
-    organization: "IBM",
-    date: "Apr 17, 2023",
-    category: "AI & Machine Learning",
-    link: "https://coursera.org/verify/KNCAJWP9CTPS",
-  },
 ];
 
 export const Certificates = () => {

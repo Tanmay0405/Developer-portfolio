@@ -144,28 +144,11 @@ export const PROJECTS = [
   },
 
   {
-    title: "Smart Surveillance AI",
-    description:
-      "A real-time computer vision system combining face mask detection and emotion recognition using MobileNetV2 and a CNN trained on the FER-2013 dataset.",
-    image: "/projects/project-1.png",
-    tech: [
-      "Python",
-      "TensorFlow",
-      "Keras",
-      "OpenCV",
-      "MobileNetV2",
-      "CNN",
-    ],
-    github: "https://github.com/Tanmay0405/mask-emotion-detector",
-    live: "",
-  },
-
-  {
     title: "ParseTruth",
     description:
-      "A collaborative project developed with a teammate to detect and classify potentially misleading or fake news content.",
+      "Collaborative web application for detecting potentially misleading news. Contributed to the frontend development, focusing on the user interface and user experience.",
     image: "",
-    tech: ["Python", "Machine Learning", "NLP"],
+    tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/blazePrakhar/ParseTruth",
     live: "https://parsetruth.streamlit.app/",
   },
@@ -174,7 +157,6 @@ export const FOOTER_DATA = [
   {
     title: "Community",
     data: [
-
       {
         name: "GitHub",
         icon: RxGithubLogo,
