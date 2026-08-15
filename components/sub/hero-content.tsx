@@ -50,10 +50,9 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-base md:text-lg text-gray-400 my-4 max-w-[650px] leading-relaxed mx-auto lg:mx-0"
         >
-          I&apos;m Tanmay, a Full Stack Developer focused on Java,
-          JavaScript, React, Node.js, and SQL. I enjoy solving problems,
-          building practical applications, and turning ideas into reliable
-          software.
+          I&apos;m Tanmay, a Full Stack Developer focused on Java, JavaScript,
+          React, Node.js, and SQL. I enjoy solving problems, building practical
+          applications, and turning ideas into reliable software.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -71,7 +70,7 @@ export const HeroContent = () => {
 
           {/* View Resume */}
           <a
-            href="https://drive.google.com/file/d/1BdmmaDxyMnAT4ztqMsUG3hunKEGxjplU/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1J-6P-k7JaI7S9sj1Xhdj_9ssZp05PNq6/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="py-3 px-7 border border-[#7042f88b] bg-[#0f0a1f]/60 text-white text-center cursor-pointer rounded-lg min-w-[160px] transition-all duration-300 hover:border-[#b49bff] hover:bg-[#7042f81a] hover:scale-105"
